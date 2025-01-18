@@ -33,8 +33,8 @@ const int segmentAngles[10][7] = {
 // Servo channel assignments
 const int digit1ServoChannels[7] = {0, 1, 2, 3, 4, 5, 6};  // Channels for digit 1 (A-G)
 const int digit2ServoChannels[7] = {7, 8, 9, 10, 11, 12, 13}; // Channels for digit 2 (A-G)
-const int digit3ServoChannels[7] = {14, 15, 0, 1, 2, 3, 4};   // Channels for digit 3 (A-G)
-const int minusSignServoChannel = 5; // Channel for minus sign servo
+const int digit3ServoChannels[7] = {14, 15, 16, 17, 18, 19, 20}; // Channels for digit 3 (A-G)
+const int minusSignServoChannel = 21; // Channel for minus sign servo
 
 // Function to set servo angle
 void setServoAngle(int channel, int angle) {
